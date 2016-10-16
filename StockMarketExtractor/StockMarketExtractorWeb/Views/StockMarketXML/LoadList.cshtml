@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "Request Stocks";
+}
+
+<h2>LoadList</h2>
+
+if(ViewBag.ListOfStocksRequested != null)
+{
+    <table>
+        <tr>
+            <th>Symbols Requested</th>
+        </tr>
+        @foreach(var symbol in ViewBag.ListOfStocksRequested)
+        {
+
+        }
+    </table>
+}

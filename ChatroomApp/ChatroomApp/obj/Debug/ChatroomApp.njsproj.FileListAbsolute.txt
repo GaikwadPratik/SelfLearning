@@ -1,0 +1,2 @@
+c:\users\pratik-laptop\documents\visual studio 2015\Projects\ChatroomApp\ChatroomApp\obj\Debug\ChatroomApp.njsprojResolveAssemblyReference.cache
+C:\Pratik\Projects\Visual Studio 2013\Projects\ChatroomApp\ChatroomApp\bin\Microsoft.NodejsTools.WebRole.dll

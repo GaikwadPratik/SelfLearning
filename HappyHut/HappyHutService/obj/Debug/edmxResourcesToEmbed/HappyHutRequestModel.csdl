@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HappyHutDataBaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="HappyHutDataBaseConnection" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="C__MigrationHistory" EntityType="HappyHutDataBaseModel.C__MigrationHistory" />
+    <EntitySet Name="AreasInCities" EntityType="HappyHutDataBaseModel.AreasInCity" />
+    <EntitySet Name="AspNetRoles" EntityType="HappyHutDataBaseModel.AspNetRole" />
+    <EntitySet Name="AspNetUserClaims" EntityType="HappyHutDataBaseModel.AspNetUserClaim" />
+    <EntitySet Name="AspNetUserLogins" EntityType="HappyHutDataBaseModel.AspNetUserLogin" />
+    <EntitySet Name="AspNetUsers" EntityType="HappyHutDataBaseModel.AspNetUser" />
+    <EntitySet Name="Cities" EntityType="HappyHutDataBaseModel.City" />
+    <EntitySet Name="GetQuoteRequests" EntityType="HappyHutDataBaseModel.GetQuoteRequest" />
+    <EntitySet Name="HappyHutUsers" EntityType="HappyHutDataBaseModel.HappyHutUser" />
+    <EntitySet Name="Services" EntityType="HappyHutDataBaseModel.Service" />
+    <EntitySet Name="ServicesInAreas" EntityType="HappyHutDataBaseModel.ServicesInArea" />
+    <AssociationSet Name="FK_AreaInCity_City" Association="HappyHutDataBaseModel.FK_AreaInCity_City">
+      <End Role="City" EntitySet="Cities" />
+      <End Role="AreasInCity" EntitySet="AreasInCities" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ServicesInAreas_AreaInCity" Association="HappyHutDataBaseModel.FK_ServicesInAreas_AreaInCity">
+      <End Role="AreasInCity" EntitySet="AreasInCities" />
+      <End Role="ServicesInArea" EntitySet="ServicesInAreas" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" Association="HappyHutDataBaseModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId">
+      <End Role="AspNetUser" EntitySet="AspNetUsers" />
+      <End Role="AspNetUserClaim" EntitySet="AspNetUserClaims" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" Association="HappyHutDataBaseModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId">
+      <End Role="AspNetUser" EntitySet="AspNetUsers" />
+      <End Role="AspNetUserLogin" EntitySet="AspNetUserLogins" />
+    </AssociationSet>
+    <AssociationSet Name="FK_HappyHutUsers_AspNetUsers" Association="HappyHutDataBaseModel.FK_HappyHutUsers_AspNetUsers">
+      <End Role="AspNetUser" EntitySet="AspNetUsers" />
+      <End Role="HappyHutUser" EntitySet="HappyHutUsers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GetQuoteRequests_ServicesInAreas" Association="HappyHutDataBaseModel.FK_GetQuoteRequests_ServicesInAreas">
+      <End Role="ServicesInArea" EntitySet="ServicesInAreas" />
+      <End Role="GetQuoteRequest" EntitySet="GetQuoteRequests" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ServicesInAreas_Services1" Association="HappyHutDataBaseModel.FK_ServicesInAreas_Services1">
+      <End Role="Service" EntitySet="Services" />
+      <End Role="ServicesInArea" EntitySet="ServicesInAreas" />
+    </AssociationSet>
+    <AssociationSet Name="AspNetUserRoles" Association="HappyHutDataBaseModel.AspNetUserRoles">
+      <End Role="AspNetRole" EntitySet="AspNetRoles" />
+      <End Role="AspNetUser" EntitySet="AspNetUsers" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="C__MigrationHistory">
+    <Key>
+      <PropertyRef Name="MigrationId" />
+      <PropertyRef Name="ContextKey" />
+    </Key>
+    <Property Name="MigrationId" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="ContextKey" Type="String" Nullable="false" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Name="Model" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Name="ProductVersion" Type="String" Nullable="false" MaxLength="32" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="AreasInCity">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CityID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="City" Relationship="HappyHutDataBaseModel.FK_AreaInCity_City" FromRole="AreasInCity" ToRole="City" />
+    <NavigationProperty Name="ServicesInAreas" Relationship="HappyHutDataBaseModel.FK_ServicesInAreas_AreaInCity" FromRole="AreasInCity" ToRole="ServicesInArea" />
+  </EntityType>
+  <EntityType Name="AspNetRole">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="AspNetUsers" Relationship="HappyHutDataBaseModel.AspNetUserRoles" FromRole="AspNetRole" ToRole="AspNetUser" />
+  </EntityType>
+  <EntityType Name="AspNetUserClaim">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="ClaimType" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ClaimValue" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="AspNetUser" Relationship="HappyHutDataBaseModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" FromRole="AspNetUserClaim" ToRole="AspNetUser" />
+  </EntityType>
+  <EntityType Name="AspNetUserLogin">
+    <Key>
+      <PropertyRef Name="LoginProvider" />
+      <PropertyRef Name="ProviderKey" />
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="LoginProvider" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="ProviderKey" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="UserId" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="AspNetUser" Relationship="HappyHutDataBaseModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" FromRole="AspNetUserLogin" ToRole="AspNetUser" />
+  </EntityType>
+  <EntityType Name="AspNetUser">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="EmailConfirmed" Type="Boolean" Nullable="false" />
+    <Property Name="PasswordHash" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SecurityStamp" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="PhoneNumberConfirmed" Type="Boolean" Nullable="false" />
+    <Property Name="TwoFactorEnabled" Type="Boolean" Nullable="false" />
+    <Property Name="LockoutEndDateUtc" Type="DateTime" Precision="3" />
+    <Property Name="LockoutEnabled" Type="Boolean" Nullable="false" />
+    <Property Name="AccessFailedCount" Type="Int32" Nullable="false" />
+    <Property Name="UserName" Type="String" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="AspNetUserClaims" Relationship="HappyHutDataBaseModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" FromRole="AspNetUser" ToRole="AspNetUserClaim" />
+    <NavigationProperty Name="AspNetUserLogins" Relationship="HappyHutDataBaseModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" FromRole="AspNetUser" ToRole="AspNetUserLogin" />
+    <NavigationProperty Name="HappyHutUser" Relationship="HappyHutDataBaseModel.FK_HappyHutUsers_AspNetUsers" FromRole="AspNetUser" ToRole="HappyHutUser" />
+    <NavigationProperty Name="AspNetRoles" Relationship="HappyHutDataBaseModel.AspNetUserRoles" FromRole="AspNetUser" ToRole="AspNetRole" />
+  </EntityType>
+  <EntityType Name="City">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="AreasInCities" Relationship="HappyHutDataBaseModel.FK_AreaInCity_City" FromRole="City" ToRole="AreasInCity" />
+  </EntityType>
+  <EntityType Name="GetQuoteRequest">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" />
+    <Property Name="FirstName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="LastName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="ServiceId" Type="Int32" Nullable="false" />
+    <Property Name="AdditionalInfo" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="IsEmailSent" Type="Boolean" Nullable="false" />
+    <Property Name="EmailSentDt" Type="DateTime" Precision="3" />
+    <Property Name="LastUpdateDt" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CreateDt" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="ServicesInArea" Relationship="HappyHutDataBaseModel.FK_GetQuoteRequests_ServicesInAreas" FromRole="GetQuoteRequest" ToRole="ServicesInArea" />
+  </EntityType>
+  <EntityType Name="HappyHutUser">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="FirstName" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="LastName" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="MobileNumber" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="AddressLine1" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="AddressLine2" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="City" Type="Int32" Nullable="false" />
+    <Property Name="State" Type="Int32" Nullable="false" />
+    <Property Name="LastUpdateDt" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CreateDt" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="AspNetUser" Relationship="HappyHutDataBaseModel.FK_HappyHutUsers_AspNetUsers" FromRole="HappyHutUser" ToRole="AspNetUser" />
+  </EntityType>
+  <EntityType Name="Service">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="ServicesInAreas" Relationship="HappyHutDataBaseModel.FK_ServicesInAreas_Services1" FromRole="Service" ToRole="ServicesInArea" />
+  </EntityType>
+  <EntityType Name="ServicesInArea">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ServiceID" Type="Int32" Nullable="false" />
+    <Property Name="AreaID" Type="Int32" Nullable="false" />
+    <Property Name="IsActive" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="AreasInCity" Relationship="HappyHutDataBaseModel.FK_ServicesInAreas_AreaInCity" FromRole="ServicesInArea" ToRole="AreasInCity" />
+    <NavigationProperty Name="GetQuoteRequests" Relationship="HappyHutDataBaseModel.FK_GetQuoteRequests_ServicesInAreas" FromRole="ServicesInArea" ToRole="GetQuoteRequest" />
+    <NavigationProperty Name="Service" Relationship="HappyHutDataBaseModel.FK_ServicesInAreas_Services1" FromRole="ServicesInArea" ToRole="Service" />
+  </EntityType>
+  <Association Name="FK_AreaInCity_City">
+    <End Type="HappyHutDataBaseModel.City" Role="City" Multiplicity="1" />
+    <End Type="HappyHutDataBaseModel.AreasInCity" Role="AreasInCity" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="City">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="AreasInCity">
+        <PropertyRef Name="CityID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ServicesInAreas_AreaInCity">
+    <End Type="HappyHutDataBaseModel.AreasInCity" Role="AreasInCity" Multiplicity="1" />
+    <End Type="HappyHutDataBaseModel.ServicesInArea" Role="ServicesInArea" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AreasInCity">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ServicesInArea">
+        <PropertyRef Name="AreaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId">
+    <End Type="HappyHutDataBaseModel.AspNetUser" Role="AspNetUser" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="HappyHutDataBaseModel.AspNetUserClaim" Role="AspNetUserClaim" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUser">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserClaim">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId">
+    <End Type="HappyHutDataBaseModel.AspNetUser" Role="AspNetUser" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="HappyHutDataBaseModel.AspNetUserLogin" Role="AspNetUserLogin" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUser">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserLogin">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_HappyHutUsers_AspNetUsers">
+    <End Type="HappyHutDataBaseModel.AspNetUser" Role="AspNetUser" Multiplicity="1" />
+    <End Type="HappyHutDataBaseModel.HappyHutUser" Role="HappyHutUser" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUser">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="HappyHutUser">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GetQuoteRequests_ServicesInAreas">
+    <End Type="HappyHutDataBaseModel.ServicesInArea" Role="ServicesInArea" Multiplicity="1" />
+    <End Type="HappyHutDataBaseModel.GetQuoteRequest" Role="GetQuoteRequest" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ServicesInArea">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="GetQuoteRequest">
+        <PropertyRef Name="ServiceId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ServicesInAreas_Services1">
+    <End Type="HappyHutDataBaseModel.Service" Role="Service" Multiplicity="1" />
+    <End Type="HappyHutDataBaseModel.ServicesInArea" Role="ServicesInArea" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Service">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ServicesInArea">
+        <PropertyRef Name="ServiceID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="AspNetUserRoles">
+    <End Type="HappyHutDataBaseModel.AspNetRole" Role="AspNetRole" Multiplicity="*" />
+    <End Type="HappyHutDataBaseModel.AspNetUser" Role="AspNetUser" Multiplicity="*" />
+  </Association>
+</Schema>

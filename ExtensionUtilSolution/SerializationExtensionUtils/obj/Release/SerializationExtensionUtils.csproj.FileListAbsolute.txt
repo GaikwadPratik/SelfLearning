@@ -1,0 +1,14 @@
+F:\Visual Studio 2013\Projects\ExtensionUtilSolution\SerializationExtensionUtils\bin\Release\SerializationExtensionUtils.dll.config
+F:\Visual Studio 2013\Projects\ExtensionUtilSolution\SerializationExtensionUtils\bin\Release\SerializationExtensionUtils.dll
+F:\Visual Studio 2013\Projects\ExtensionUtilSolution\SerializationExtensionUtils\bin\Release\SerializationExtensionUtils.pdb
+F:\Visual Studio 2013\Projects\ExtensionUtilSolution\SerializationExtensionUtils\bin\Release\LogUtils.dll
+F:\Visual Studio 2013\Projects\ExtensionUtilSolution\SerializationExtensionUtils\obj\Release\SerializationExtensionUtils.dll
+F:\Visual Studio 2013\Projects\ExtensionUtilSolution\SerializationExtensionUtils\obj\Release\SerializationExtensionUtils.pdb
+F:\Visual Studio 2013\Projects\ExtensionUtilSolution\SerializationExtensionUtils\obj\Release\SerializationExtensionUtils.csprojResolveAssemblyReference.cache
+C:\Pratik\Projects\Visual Studio 2013\Projects\ExtensionUtilSolution\SerializationExtensionUtils\bin\Release\SerializationExtensionUtils.dll.config
+C:\Pratik\Projects\Visual Studio 2013\Projects\ExtensionUtilSolution\SerializationExtensionUtils\bin\Release\SerializationExtensionUtils.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\ExtensionUtilSolution\SerializationExtensionUtils\bin\Release\SerializationExtensionUtils.pdb
+C:\Pratik\Projects\Visual Studio 2013\Projects\ExtensionUtilSolution\SerializationExtensionUtils\bin\Release\LogUtils.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\ExtensionUtilSolution\SerializationExtensionUtils\obj\Release\SerializationExtensionUtils.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\ExtensionUtilSolution\SerializationExtensionUtils\obj\Release\SerializationExtensionUtils.pdb
+C:\Pratik\Projects\Visual Studio 2013\Projects\ExtensionUtilSolution\SerializationExtensionUtils\obj\Release\SerializationExtensionUtils.csprojResolveAssemblyReference.cache

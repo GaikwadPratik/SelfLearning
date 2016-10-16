@@ -1,0 +1,118 @@
+﻿@model BussinessObjects.GetQuoteInfo
+@{
+    ViewBag.Title = "Electrical Services - GetQuote";
+}
+
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+<link href="~/Content/bootstrap-switch/bootstrap3/bootstrap-switch.css" rel="stylesheet" />
+<link href="~/Content/bootstrap-datetimepicker.css" rel="stylesheet" />
+@Styles.Render("~/Content/css")
+<header>
+    <div class="container">
+        <section class="main-body" style="padding: 30px;">
+            <div class="row">
+                <h2 style="color: black; font-family: 'Open Sans', sans-serif; font-weight: 300;">Tell us a bit about you and your place!</h2>
+                <div class="col-lg-8" data-ng-controller="enterDataController">
+                    @{int nServiceId = ViewBag.ServiceId;}
+                    @using (Html.BeginForm("SaveQuoteRequest",
+                                            "Electrician",
+                                            new { nServiceId = nServiceId },
+                                            FormMethod.Post,
+                                            new
+                                            {
+                                                name = "electricianEnterData",
+                                                id = "electricianEnterData",
+                                                data_ng_submit = "validate(electricianEnterData$valid)"
+                                            }))
+                    {
+
+                        @Html.Partial("EnterDataTopPartial")
+
+                        @Html.Partial("TermsAndConditionPartial")
+                    }
+                </div>
+                <div class="col-lg-4">
+                    <div class="col-lg-4">
+                        <section class="standardcleaning-box">
+                            <div class="standardcleaning-inner">
+                                <h5><strong>Excellent electrical Service</strong></h5>
+                                <p>We are dedicated to making your service the best experience possible.</p>
+                                <a data-toggle="modal" data-target="#standardcleaning-modal" class="pull-right">Learn More</a>
+                            </div>
+                        </section>
+
+                        <section class="standardcleaning-box">
+                            <div class="trust-inner">
+                                <h5><strong>100% Satisfaction Guarantee</strong></h5>
+                                <p>We stand behind the quality of our cleaning professionals.  If you're not 100% satisfied with your service, we'll come back and re-do it!</p>
+                                <a data-toggle="modal" data-target="#satisfaction-modal" class="pull-right">Learn More</a>
+                            </div>
+                        </section>
+
+                        <div class="col-lg-8"></div>
+                        @*<div class="col-lg-12">
+                                <div class="panel panel-green">
+                                    <div class="panel-heading">
+                                        Discount
+                                    </div>
+                                    <div class="panel-body">
+                                        <p>Choose any of the provided quote and get 10% discount on service from HappyHut. </p>
+                                    </div>
+                                    <div class="panel-footer">
+                                        <img src="img/about/10off.jpg" />
+                                    </div>
+                                </div>
+                            </div>*@
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</header>
+
+<div class="modal fade" id="standardcleaning-modal" tabindex="-1" role="dialog" aria-labelledby="StandardCleaning" aria-hidden="true">
+    <div class="modal-dialog ">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Our Standard Pest Control</h4>
+            </div>
+            <div class="modal-body">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="satisfaction-modal" tabindex="-1" role="dialog" aria-labelledby="Satisfaction" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            </div>
+            <div class="modal-body">
+                <section class="satisfaction-section">
+                    <div class="row">
+                        <div class="col-xs-5">
+                            <img src="https://s3-us-west-1.amazonaws.com/homejoy/img/booking/US_modal_03.png" alt="" class="img-responsive">
+                        </div>
+                        <div class="col-xs-7">
+                            <h2>We aim to please!</h2>
+                            <p>If you are not completely satisfied with your service, we will come back and re-clean for free.</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
+
+<script src="~/Scripts/bootstrap.js"></script>
+<script src="~/Scripts/bootstrap-switch.js"></script>
+<script src="~/Scripts/moment.js"></script>
+<script src="~/Scripts/bootstrap-datetimepicker.js"></script>
+<script src="~/Scripts/HappyHutJsFiles/enterFormData.js"></script>
+

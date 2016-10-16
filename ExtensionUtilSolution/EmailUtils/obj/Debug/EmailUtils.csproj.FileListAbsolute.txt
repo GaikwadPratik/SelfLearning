@@ -1,0 +1,7 @@
+C:\Pratik\Projects\Visual Studio 2013\Projects\ExtensionUtilSolution\EmailUtils\bin\Debug\EmailUtils.dll.config
+C:\Pratik\Projects\Visual Studio 2013\Projects\ExtensionUtilSolution\EmailUtils\bin\Debug\EmailUtils.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\ExtensionUtilSolution\EmailUtils\bin\Debug\EmailUtils.pdb
+C:\Pratik\Projects\Visual Studio 2013\Projects\ExtensionUtilSolution\EmailUtils\bin\Debug\LogUtils.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\ExtensionUtilSolution\EmailUtils\obj\Debug\EmailUtils.csprojResolveAssemblyReference.cache
+C:\Pratik\Projects\Visual Studio 2013\Projects\ExtensionUtilSolution\EmailUtils\obj\Debug\EmailUtils.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\ExtensionUtilSolution\EmailUtils\obj\Debug\EmailUtils.pdb

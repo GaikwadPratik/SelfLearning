@@ -1,0 +1,14 @@
+F:\Visual Studio 2013\Projects\ExtensionUtilSolution\EmailUtils\bin\Release\EmailUtils.dll.config
+F:\Visual Studio 2013\Projects\ExtensionUtilSolution\EmailUtils\bin\Release\EmailUtils.dll
+F:\Visual Studio 2013\Projects\ExtensionUtilSolution\EmailUtils\bin\Release\EmailUtils.pdb
+F:\Visual Studio 2013\Projects\ExtensionUtilSolution\EmailUtils\bin\Release\LogUtils.dll
+F:\Visual Studio 2013\Projects\ExtensionUtilSolution\EmailUtils\obj\Release\EmailUtils.csprojResolveAssemblyReference.cache
+F:\Visual Studio 2013\Projects\ExtensionUtilSolution\EmailUtils\obj\Release\EmailUtils.dll
+F:\Visual Studio 2013\Projects\ExtensionUtilSolution\EmailUtils\obj\Release\EmailUtils.pdb
+C:\Pratik\Projects\Visual Studio 2013\Projects\ExtensionUtilSolution\EmailUtils\bin\Release\EmailUtils.dll.config
+C:\Pratik\Projects\Visual Studio 2013\Projects\ExtensionUtilSolution\EmailUtils\bin\Release\EmailUtils.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\ExtensionUtilSolution\EmailUtils\bin\Release\EmailUtils.pdb
+C:\Pratik\Projects\Visual Studio 2013\Projects\ExtensionUtilSolution\EmailUtils\bin\Release\LogUtils.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\ExtensionUtilSolution\EmailUtils\obj\Release\EmailUtils.csprojResolveAssemblyReference.cache
+C:\Pratik\Projects\Visual Studio 2013\Projects\ExtensionUtilSolution\EmailUtils\obj\Release\EmailUtils.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\ExtensionUtilSolution\EmailUtils\obj\Release\EmailUtils.pdb

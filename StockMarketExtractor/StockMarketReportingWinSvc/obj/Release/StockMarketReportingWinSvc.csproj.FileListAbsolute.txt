@@ -1,0 +1,11 @@
+C:\Pratik\Projects\Visual Studio 2013\Projects\StockMarketExtractor\StockMarketReportingWinSvc\bin\Release\StockMarketReportingWinSvc.exe.config
+C:\Pratik\Projects\Visual Studio 2013\Projects\StockMarketExtractor\StockMarketReportingWinSvc\bin\Release\StockMarketReportingWinSvc.exe
+C:\Pratik\Projects\Visual Studio 2013\Projects\StockMarketExtractor\StockMarketReportingWinSvc\bin\Release\StockMarketReportingWinSvc.pdb
+C:\Pratik\Projects\Visual Studio 2013\Projects\StockMarketExtractor\StockMarketReportingWinSvc\bin\Release\EmailUtils.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\StockMarketExtractor\StockMarketReportingWinSvc\bin\Release\LogUtils.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\StockMarketExtractor\StockMarketReportingWinSvc\bin\Release\SerializationExtensionUtils.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\StockMarketExtractor\StockMarketReportingWinSvc\obj\Release\StockMarketReportingWinSvc.ProjectInstaller.resources
+C:\Pratik\Projects\Visual Studio 2013\Projects\StockMarketExtractor\StockMarketReportingWinSvc\obj\Release\StockMarketReportingWinSvc.StockMarketReportingWinSvc.resources
+C:\Pratik\Projects\Visual Studio 2013\Projects\StockMarketExtractor\StockMarketReportingWinSvc\obj\Release\StockMarketReportingWinSvc.csproj.GenerateResource.Cache
+C:\Pratik\Projects\Visual Studio 2013\Projects\StockMarketExtractor\StockMarketReportingWinSvc\obj\Release\StockMarketReportingWinSvc.exe
+C:\Pratik\Projects\Visual Studio 2013\Projects\StockMarketExtractor\StockMarketReportingWinSvc\obj\Release\StockMarketReportingWinSvc.pdb

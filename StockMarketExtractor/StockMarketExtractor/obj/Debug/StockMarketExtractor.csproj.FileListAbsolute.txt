@@ -1,0 +1,8 @@
+F:\Visual Studio 2013\Projects\StockMarketExtractor\StockMarketExtractor\bin\Debug\StockMarketExtractor.exe.config
+F:\Visual Studio 2013\Projects\StockMarketExtractor\StockMarketExtractor\bin\Debug\StockMarketExtractor.exe
+F:\Visual Studio 2013\Projects\StockMarketExtractor\StockMarketExtractor\bin\Debug\StockMarketExtractor.pdb
+F:\Visual Studio 2013\Projects\StockMarketExtractor\StockMarketExtractor\bin\Debug\LogUtils.dll
+F:\Visual Studio 2013\Projects\StockMarketExtractor\StockMarketExtractor\bin\Debug\SerializationExtensionUtils.dll
+F:\Visual Studio 2013\Projects\StockMarketExtractor\StockMarketExtractor\obj\Debug\StockMarketExtractor.csprojResolveAssemblyReference.cache
+F:\Visual Studio 2013\Projects\StockMarketExtractor\StockMarketExtractor\obj\Debug\StockMarketExtractor.exe
+F:\Visual Studio 2013\Projects\StockMarketExtractor\StockMarketExtractor\obj\Debug\StockMarketExtractor.pdb

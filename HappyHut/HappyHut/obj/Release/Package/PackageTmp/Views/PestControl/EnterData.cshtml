@@ -1,0 +1,219 @@
+﻿@model BussinessObjects.GetQuoteInfo
+@{
+    ViewBag.Title = "Pest Control - Get Quote";
+}
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+<link href="~/Content/bootstrap-switch/bootstrap3/bootstrap-switch.css" rel="stylesheet" />
+<link href="~/Content/bootstrap-datetimepicker.css" rel="stylesheet" />
+
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand page-scroll" href="index.aspx">Happy Hut</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        @*<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Why Us</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">How it works</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#team">Team</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>*@
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+<header>
+    <div class="container">
+        <section class="main-body" style="padding: 30px;">
+            <div class="row">
+                <h2 style="color: black; font-family: 'Open Sans', sans-serif; font-weight: 300;">Tell us a bit about you and your place!</h2>
+                <div class="col-lg-8" data-ng-controller="pestControlController">
+                    @{int nServiceId = ViewBag.ServiceId;}
+                    @using (Html.BeginForm("SaveQuoteRequest",
+                                            "PestControl",
+                                            FormMethod.Post,
+                                            new
+                                            {
+                                                name = "pestControlEnterData",
+                                                id = "pestControlEnterData",
+                                                nServiceId = nServiceId,
+                                                data_ng_submit = "validate(pestControlEnterData$valid)"
+                                            }))
+                    {
+
+                        <div class="form-group input-group">
+                            <span class="form-group input-group-addon"><i class="fa fa-user fa-3"></i></span>
+                            @Html.TextBoxFor(x => x.FirstName, new { @class = "form-control", @placeHolder = "Enter your first name", data_ng_model = "firstName", data_ng_required = "true" })
+                            @*<div>
+                                    @Html.ValidationMessageFor(x => x.FirstName, null, new { @class = "validationClass" })
+                                </div>*@
+                            <div data-ng-show="pestControlEnterData.FirstName.$dirty && pestControlEnterData.FirstName.$invalid && pestControlEnterData.submitted">
+                                <p data-ng-show="pestControlEnterData.FirstName.$error.required">First name is required</p>
+                            </div>
+                        </div>
+                        <div class="form-group input-group">
+                            <span class="form-group input-group-addon"><i class="fa fa-user fa-3"></i></span>
+                            @Html.TextBoxFor(x => x.LastName, new { @class = "form-control", @placeHolder = "Enter your last name" })
+                            <div>
+                                @Html.ValidationMessageFor(x => x.LastName, null, new { @class = "validationClass" })
+                            </div>
+                        </div>
+                        <div class="form-group input-group">
+                            <span class="form-group input-group-addon"><i class="fa fa-user fa-3"></i></span>
+                            @Html.TextBoxFor(x => x.Email, new { @class = "form-control", @placeHolder = "Enter your email for communications" })
+                            <div>
+                                @Html.ValidationMessageFor(x => x.Email, null, new { @class = "validationClass" })
+                            </div>
+                        </div>
+                        <div class="form-group input-group">
+                            <span class="form-group input-group-addon"><i class="fa fa-user fa-3"></i></span>
+                            @Html.TextBoxFor(x => x.MobileNumber, new { @class = "form-control", @placeHolder = "Enter your mobile number" })
+                            <div>
+                                @Html.ValidationMessageFor(x => x.MobileNumber, null, new { @class = "validationClass" })
+                            </div>
+                        </div>
+                        <div class="form-group input-group">
+                            <span class="form-group input-group-addon"><i class="fa fa-user fa-3"></i></span>
+                            @Html.TextBoxFor(x => x.PreferredDate, new { @class = "form-control", @id = "PreferredDate", @name = "PreferredDate", @placeHolder = "Please select preferred date" })
+                            <div>
+                                @Html.ValidationMessageFor(x => x.PreferredDate, null, new { @class = "validationClass" })
+                            </div>
+                        </div>
+                        <div class="form-group input-group">
+                            <span class="form-group input-group-addon"><i class="fa fa-user fa-3"></i></span>
+                            @Html.TextBoxFor(x => x.PreferredTime, new { @id = "PreferredTime", @name = "PreferredTime", @class = "form-control", @placeHolder = "Please select preferred time" })
+                            <div>
+                                @Html.ValidationMessageFor(x => x.PreferredTime, null, new { @class = "validationClass" })
+                            </div>
+                        </div>
+                        <div class="form-group input-group">
+                            <span class="form-group input-group-addon"><i class="fa fa-user fa-3"></i></span>
+                            @Html.DropDownList("ddnNumberOfBedRooms", new List<SelectListItem>()
+                                                  { new SelectListItem() { Text = "1 Bedroom", Value = "1 Bedroom" },
+                                                    new SelectListItem() { Text = "2 Bedrooms", Value= "2 Bedrooms"},
+                                                    new SelectListItem() { Text = "3 Bedrooms", Value = "3  Bedrooms"},
+                                                    new SelectListItem() { Text = "4 Bedrooms", Value = "4 Bedrooms"},
+                                                  })
+                        </div>
+                        <div class="form-group input-group">
+                            <span class="form-group input-group-addon"><i class="fa fa-user fa-3"></i></span>
+                            @Html.TextBox("txtAdditionalInfo", new { @class = "form-control", @placeHolder = "Enter any additional info required" })
+                        </div>
+                        <div class=" form-group input-group">
+                            <span class="form-group input-group-addon" style="color: black;">Terms and Conditions</span>
+                            <input type="checkbox" name="acceptterms" data-size="large" data-on-text="Accept" data-off-text="Decline" style="margin-left: 0px;" />
+                        </div>
+
+                        <input type="submit" id="btnSaveRequest" name="btnSaveRequest" class="btn btn-primary btn-lg" />
+
+                    }
+                </div>
+                <div class="col-lg-4">
+                    <div class="col-lg-4">
+                        <section class="standardcleaning-box">
+                            <div class="standardcleaning-inner">
+                                <h5><strong>Standard Pest Control</strong></h5>
+                                <p>We are dedicated to making your service the best experience possible.</p>
+                                <a data-toggle="modal" data-target="#standardcleaning-modal" class="pull-right">Learn More</a>
+                            </div>
+                        </section>
+
+                        <section class="standardcleaning-box">
+                            <div class="trust-inner">
+                                <h5><strong>100% Satisfaction Guarantee</strong></h5>
+                                <p>We stand behind the quality of our cleaning professionals.  If you're not 100% satisfied with your service, we'll come back and re-do it!</p>
+                                <a data-toggle="modal" data-target="#satisfaction-modal" class="pull-right">Learn More</a>
+                            </div>
+                        </section>
+
+                        <div class="col-lg-8"></div>
+                        @*<div class="col-lg-12">
+                                <div class="panel panel-green">
+                                    <div class="panel-heading">
+                                        Discount
+                                    </div>
+                                    <div class="panel-body">
+                                        <p>Choose any of the provided quote and get 10% discount on service from HappyHut. </p>
+                                    </div>
+                                    <div class="panel-footer">
+                                        <img src="img/about/10off.jpg" />
+                                    </div>
+                                </div>
+                            </div>*@
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</header>
+
+<div class="modal fade" id="standardcleaning-modal" tabindex="-1" role="dialog" aria-labelledby="StandardCleaning" aria-hidden="true">
+    <div class="modal-dialog ">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Our Standard Pest Control</h4>
+            </div>
+            <div class="modal-body">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="satisfaction-modal" tabindex="-1" role="dialog" aria-labelledby="Satisfaction" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            </div>
+            <div class="modal-body">
+                <section class="satisfaction-section">
+                    <div class="row">
+                        <div class="col-xs-5">
+                            <img src="https://s3-us-west-1.amazonaws.com/homejoy/img/booking/US_modal_03.png" alt="" class="img-responsive">
+                        </div>
+                        <div class="col-xs-7">
+                            <h2>We aim to please!</h2>
+                            <p>If you are not completely satisfied with your service, we will come back and re-clean for free.</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
+
+<script src="~/Scripts/bootstrap.js"></script>
+<script src="~/Scripts/bootstrap-switch.js"></script>
+<script src="~/Scripts/moment.js"></script>
+<script src="~/Scripts/bootstrap-datetimepicker.js"></script>
+<script src="~/Scripts/HappyHutJsFiles/pestControl.js"></script>

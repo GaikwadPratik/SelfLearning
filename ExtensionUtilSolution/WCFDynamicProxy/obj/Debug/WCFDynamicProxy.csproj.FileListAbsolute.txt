@@ -1,0 +1,5 @@
+C:\Pratik\Projects\Visual Studio 2013\Projects\ExtensionUtilSolution\WCFDynamicProxy\bin\Debug\WCFDynamicProxy.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\ExtensionUtilSolution\WCFDynamicProxy\bin\Debug\WCFDynamicProxy.pdb
+C:\Pratik\Projects\Visual Studio 2013\Projects\ExtensionUtilSolution\WCFDynamicProxy\obj\Debug\WCFDynamicProxy.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\ExtensionUtilSolution\WCFDynamicProxy\obj\Debug\WCFDynamicProxy.pdb
+C:\Pratik\Projects\Visual Studio 2013\Projects\ExtensionUtilSolution\WCFDynamicProxy\obj\Debug\WCFDynamicProxy.csprojResolveAssemblyReference.cache

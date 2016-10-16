@@ -1,0 +1,51 @@
+﻿@model BussinessObjects.GetQuoteInfo
+
+<div class="form-group input-group">
+    <span class="form-group input-group-addon"><i class="fa fa-user fa-3"></i></span>
+    @Html.TextBoxFor(x => x.FirstName, new { @class = "form-control", @placeHolder = "Enter your first name", data_ng_model = "firstName", data_ng_required = "true" })
+    @*<div>
+            @Html.ValidationMessageFor(x => x.FirstName, null, new { @class = "validationClass" })
+        </div>*@
+    <div data-ng-show="pestControlEnterData.FirstName.$dirty && pestControlEnterData.FirstName.$invalid && pestControlEnterData.submitted">
+        <p data-ng-show="pestControlEnterData.FirstName.$error.required">First name is required</p>
+    </div>
+</div>
+<div class="form-group input-group">
+    <span class="form-group input-group-addon"><i class="fa fa-user fa-3"></i></span>
+    @Html.TextBoxFor(x => x.LastName, new { @class = "form-control", @placeHolder = "Enter your last name" })
+    <div>
+        @Html.ValidationMessageFor(x => x.LastName, null, new { @class = "validationClass" })
+    </div>
+</div>
+<div class="form-group input-group">
+    <span class="form-group input-group-addon"><i class="fa fa-user fa-3"></i></span>
+    @Html.TextBoxFor(x => x.Email, new { @class = "form-control", @placeHolder = "Enter your email for communications" })
+    <div>
+        @Html.ValidationMessageFor(x => x.Email, null, new { @class = "validationClass" })
+    </div>
+</div>
+<div class="form-group input-group">
+    <span class="form-group input-group-addon"><i class="fa fa-user fa-3"></i></span>
+    @Html.TextBoxFor(x => x.MobileNumber, new { @class = "form-control", @placeHolder = "Enter your mobile number" })
+    <div>
+        @Html.ValidationMessageFor(x => x.MobileNumber, null, new { @class = "validationClass" })
+    </div>
+</div>
+<div class="form-group input-group">
+    <span class="form-group input-group-addon"><i class="fa fa-user fa-3"></i></span>
+    @Html.TextBoxFor(x => x.PreferredDate, new { @class = "form-control", @id = "PreferredDate", @name = "PreferredDate", @placeHolder = "Please select preferred date" })
+    <div>
+        @Html.ValidationMessageFor(x => x.PreferredDate, null, new { @class = "validationClass" })
+    </div>
+</div>
+<div class="form-group input-group">
+    <span class="form-group input-group-addon"><i class="fa fa-user fa-3"></i></span>
+    @Html.TextBoxFor(x => x.PreferredTime, new { @id = "PreferredTime", @name = "PreferredTime", @class = "form-control", @placeHolder = "Please select preferred time" })
+    <div>
+        @Html.ValidationMessageFor(x => x.PreferredTime, null, new { @class = "validationClass" })
+    </div>
+</div>
+<div class="form-group input-group">
+    <span class="form-group input-group-addon"><i class="fa fa-user fa-3"></i></span>
+    @Html.TextBox("txtAdditionalInfo", String.Empty, new { @class = "form-control", @placeHolder = "Enter any additional info required" })
+</div>

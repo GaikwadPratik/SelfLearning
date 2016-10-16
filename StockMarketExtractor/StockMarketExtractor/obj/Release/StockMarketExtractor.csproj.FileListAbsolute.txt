@@ -1,0 +1,9 @@
+C:\Pratik\Projects\Visual Studio 2013\Projects\StockMarketExtractor\StockMarketExtractor\bin\Release\StockMarketExtractor.exe.config
+C:\Pratik\Projects\Visual Studio 2013\Projects\StockMarketExtractor\StockMarketExtractor\bin\Release\StockMarketExtractor.exe
+C:\Pratik\Projects\Visual Studio 2013\Projects\StockMarketExtractor\StockMarketExtractor\bin\Release\StockMarketExtractor.pdb
+C:\Pratik\Projects\Visual Studio 2013\Projects\StockMarketExtractor\StockMarketExtractor\bin\Release\EmailUtils.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\StockMarketExtractor\StockMarketExtractor\bin\Release\LogUtils.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\StockMarketExtractor\StockMarketExtractor\bin\Release\SerializationExtensionUtils.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\StockMarketExtractor\StockMarketExtractor\obj\Release\StockMarketExtractor.exe
+C:\Pratik\Projects\Visual Studio 2013\Projects\StockMarketExtractor\StockMarketExtractor\obj\Release\StockMarketExtractor.pdb
+C:\Pratik\Projects\Visual Studio 2013\Projects\StockMarketExtractor\StockMarketExtractor\obj\Release\StockMarketExtractor.csprojResolveAssemblyReference.cache

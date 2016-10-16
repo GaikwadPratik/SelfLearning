@@ -1,0 +1,9 @@
+C:\Pratik\Projects\Visual Studio 2013\Projects\ExtensionUtilSolution\UnitTestProject\bin\Debug\UnitTestProject.dll.config
+C:\Pratik\Projects\Visual Studio 2013\Projects\ExtensionUtilSolution\UnitTestProject\bin\Debug\UnitTestProject.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\ExtensionUtilSolution\UnitTestProject\bin\Debug\UnitTestProject.pdb
+C:\Pratik\Projects\Visual Studio 2013\Projects\ExtensionUtilSolution\UnitTestProject\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\ExtensionUtilSolution\UnitTestProject\bin\Debug\WCFDynamicProxy.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\ExtensionUtilSolution\UnitTestProject\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Pratik\Projects\Visual Studio 2013\Projects\ExtensionUtilSolution\UnitTestProject\obj\Debug\UnitTestProject.csprojResolveAssemblyReference.cache
+C:\Pratik\Projects\Visual Studio 2013\Projects\ExtensionUtilSolution\UnitTestProject\obj\Debug\UnitTestProject.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\ExtensionUtilSolution\UnitTestProject\obj\Debug\UnitTestProject.pdb

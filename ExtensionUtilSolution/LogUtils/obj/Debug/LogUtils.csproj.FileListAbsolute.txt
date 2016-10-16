@@ -1,0 +1,4 @@
+C:\Pratik\Projects\Visual Studio 2013\Projects\ExtensionUtilSolution\LogUtils\bin\Debug\LogUtils.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\ExtensionUtilSolution\LogUtils\bin\Debug\LogUtils.pdb
+C:\Pratik\Projects\Visual Studio 2013\Projects\ExtensionUtilSolution\LogUtils\obj\Debug\LogUtils.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\ExtensionUtilSolution\LogUtils\obj\Debug\LogUtils.pdb

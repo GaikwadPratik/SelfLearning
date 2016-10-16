@@ -1,0 +1,12 @@
+F:\Visual Studio 2013\Projects\HappyHut\HappyHutMiddleTier\bin\Debug\HappyHutMiddleTier.dll.config
+F:\Visual Studio 2013\Projects\HappyHut\HappyHutMiddleTier\bin\Debug\HappyHutMiddleTier.dll
+F:\Visual Studio 2013\Projects\HappyHut\HappyHutMiddleTier\bin\Debug\HappyHutMiddleTier.pdb
+F:\Visual Studio 2013\Projects\HappyHut\HappyHutMiddleTier\bin\Debug\BussinessObjects.dll
+F:\Visual Studio 2013\Projects\HappyHut\HappyHutMiddleTier\bin\Debug\EntityFramework.dll
+F:\Visual Studio 2013\Projects\HappyHut\HappyHutMiddleTier\bin\Debug\EntityFramework.SqlServer.dll
+F:\Visual Studio 2013\Projects\HappyHut\HappyHutMiddleTier\bin\Debug\LogUtils.dll
+F:\Visual Studio 2013\Projects\HappyHut\HappyHutMiddleTier\bin\Debug\EntityFramework.xml
+F:\Visual Studio 2013\Projects\HappyHut\HappyHutMiddleTier\bin\Debug\EntityFramework.SqlServer.xml
+F:\Visual Studio 2013\Projects\HappyHut\HappyHutMiddleTier\obj\Debug\HappyHutMiddleTier.csprojResolveAssemblyReference.cache
+F:\Visual Studio 2013\Projects\HappyHut\HappyHutMiddleTier\obj\Debug\HappyHutMiddleTier.dll
+F:\Visual Studio 2013\Projects\HappyHut\HappyHutMiddleTier\obj\Debug\HappyHutMiddleTier.pdb

@@ -1,0 +1,46 @@
+﻿Uninstalling assembly 'C:\Pratik\Projects\Visual Studio 2013\Projects\StockMarketExtractor\StockMarketReportingWinSvc\bin\Debug\StockMarketReportingWinSvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Pratik\Projects\Visual Studio 2013\Projects\StockMarketExtractor\StockMarketReportingWinSvc\bin\Debug\StockMarketReportingWinSvc.InstallLog
+   assemblypath = C:\Pratik\Projects\Visual Studio 2013\Projects\StockMarketExtractor\StockMarketReportingWinSvc\bin\Debug\StockMarketReportingWinSvc.exe
+Removing EventLog source Stock Market Reporting Service.
+Service Stock Market Reporting Service is being removed from the system...
+Service Stock Market Reporting Service was successfully removed from the system.
+Installing assembly 'C:\Pratik\Projects\Visual Studio 2013\Projects\StockMarketExtractor\StockMarketReportingWinSvc\bin\Debug\StockMarketReportingWinSvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Pratik\Projects\Visual Studio 2013\Projects\StockMarketExtractor\StockMarketReportingWinSvc\bin\Debug\StockMarketReportingWinSvc.InstallLog
+   assemblypath = C:\Pratik\Projects\Visual Studio 2013\Projects\StockMarketExtractor\StockMarketReportingWinSvc\bin\Debug\StockMarketReportingWinSvc.exe
+Installing service Stock Market Reporting Service...
+Service Stock Market Reporting Service has been successfully installed.
+Creating EventLog source Stock Market Reporting Service in log Application...
+An exception occurred in the OnAfterInstall event handler of System.ServiceProcess.ServiceInstaller.
+System.InvalidOperationException: Cannot start service Stock Market Reporting Service on computer '.'.
+The inner exception System.ComponentModel.Win32Exception was thrown with the following error message: The service did not respond to the start or control request in a timely fashion.
+Rolling back assembly 'C:\Pratik\Projects\Visual Studio 2013\Projects\StockMarketExtractor\StockMarketReportingWinSvc\bin\Debug\StockMarketReportingWinSvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Pratik\Projects\Visual Studio 2013\Projects\StockMarketExtractor\StockMarketReportingWinSvc\bin\Debug\StockMarketReportingWinSvc.InstallLog
+   assemblypath = C:\Pratik\Projects\Visual Studio 2013\Projects\StockMarketExtractor\StockMarketReportingWinSvc\bin\Debug\StockMarketReportingWinSvc.exe
+Restoring event log to previous state for source Stock Market Reporting Service.
+Service Stock Market Reporting Service is being removed from the system...
+Service Stock Market Reporting Service was successfully removed from the system.
+Installing assembly 'C:\Pratik\Projects\Visual Studio 2013\Projects\StockMarketExtractor\StockMarketReportingWinSvc\bin\Debug\StockMarketReportingWinSvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Pratik\Projects\Visual Studio 2013\Projects\StockMarketExtractor\StockMarketReportingWinSvc\bin\Debug\StockMarketReportingWinSvc.InstallLog
+   assemblypath = C:\Pratik\Projects\Visual Studio 2013\Projects\StockMarketExtractor\StockMarketReportingWinSvc\bin\Debug\StockMarketReportingWinSvc.exe
+Installing service Stock Market Reporting Service...
+Service Stock Market Reporting Service has been successfully installed.
+Creating EventLog source Stock Market Reporting Service in log Application...
+An exception occurred in the OnAfterInstall event handler of System.ServiceProcess.ServiceInstaller.
+System.InvalidOperationException: Cannot start service Stock Market Reporting Service on computer '.'.
+The inner exception System.ComponentModel.Win32Exception was thrown with the following error message: The service did not respond to the start or control request in a timely fashion.
+Rolling back assembly 'C:\Pratik\Projects\Visual Studio 2013\Projects\StockMarketExtractor\StockMarketReportingWinSvc\bin\Debug\StockMarketReportingWinSvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Pratik\Projects\Visual Studio 2013\Projects\StockMarketExtractor\StockMarketReportingWinSvc\bin\Debug\StockMarketReportingWinSvc.InstallLog
+   assemblypath = C:\Pratik\Projects\Visual Studio 2013\Projects\StockMarketExtractor\StockMarketReportingWinSvc\bin\Debug\StockMarketReportingWinSvc.exe
+Restoring event log to previous state for source Stock Market Reporting Service.
+Service Stock Market Reporting Service is being removed from the system...
+Service Stock Market Reporting Service was successfully removed from the system.
