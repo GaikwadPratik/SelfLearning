@@ -1,4 +1,4 @@
-﻿# AngularJS2 project with ASP.NET MVC 5 in Visual Studio 2015 Update 3
+# AngularJS2 project with ASP.NET MVC 5 in Visual Studio 2015 Update 3
 <h3> These steps can be used with new applicaiton or existing application </h3>
 
 Steps to create from the scratch
@@ -13,6 +13,7 @@ Steps to create from the scratch
 
 2. Add a new <b>package.json</b> file inside the Project so that we can install <i>NodeJS</i> packages.
 	To install AngularJS2 packages copy below lines in package.json
+		
 		{
 		  "version": "1.0.0",
 		  "name": "augluarstart", <b><u>This should be name of your project all in lower case</u></b>
@@ -47,6 +48,7 @@ Steps to create from the scratch
 
 3. Add a new <b>tsconfig.json</b> file inside the Project so that only <b> required <i>*.ts</i> files </b> gets compiled to JS.
 	Copy below configuration in tsconfig.json
+	
 	{
 	  "compilerOptions": {
 		"noImplicitAny": false,
@@ -74,6 +76,7 @@ Steps to create from the scratch
 
 
 4. Add a gulpfile.js so that we can move only required files inside Scripts folder. Copy below code in it:
+	
 	var gulp = require('gulp');
 	var del = require('del');
 	var config = {
@@ -111,7 +114,8 @@ Steps to create from the scratch
 8. Once gulp task runner is completed, include all the newly crated folder <i>(dependencies)</i> under "Scripts" folder in project.
 
 9. Goto _Layout.cshtml file and add below code to run AngularJS2 modules when app runs.
-	<script src="~/Scripts/Dependencies/shim.min.js"></script>
+
+<script src="~/Scripts/Dependencies/shim.min.js"></script>
     <script src="~/Scripts/Dependencies/zone.js"></script>
     <script src="~/Scripts/Dependencies/Reflect.js"></script>
     <script src="~/Scripts/Dependencies/system.src.js"></script>
