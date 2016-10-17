@@ -143,11 +143,9 @@ Steps to create from the scratch
 	
 10. Goto Views -> Home -> Index.cshtml <i>(or whichever view needs to load AngularJS2 app)</i> and add below lines:
 
-	<pre>
-		<code>
+	
 			<first-app></first-app>
-		</code> 
-	</pre>
+	
 
 11. Now let's hook up angular 2 code. 
 	a. Create below folder structure under Scripts folder:
@@ -158,9 +156,7 @@ Steps to create from the scratch
 	
 	b. create systemjs.config.js under SystemConfig folder and copy below code.
 		
-		<pre>
-		<code>
-			 
+		 
 			 // System configuration for Angular 2 samples
 			 // Adjust as necessary for your application needs.
 			 
@@ -207,8 +203,6 @@ Steps to create from the scratch
 				});
 			})(this);
 				
-		</code>
-	</pre>
 	
 	c. Create main.ts under WelcomeModule and copy below code:
 		<pre>
