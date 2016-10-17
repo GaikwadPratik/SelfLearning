@@ -205,18 +205,15 @@ Steps to create from the scratch
 				
 	
 	c. Create main.ts under WelcomeModule and copy below code:
-		<pre>
-			<code>
+	
 				import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 				import { AppModule } from './app.module';
 				platformBrowserDynamic().bootstrapModule(AppModule);
 		
-			</code>
-		</pre>
+	
 
 	d. create app.module.ts under WelcomeModule and copy below code:
-	<pre>
-		<code>
+	
 			import { NgModule } from '@angular/core';
 			import { BrowserModule } from '@angular/platform-browser';
 			import { AppComponent } from './app.component';
@@ -229,12 +226,10 @@ Steps to create from the scratch
 
 			export class AppModule { }
 		
-		</code>
-	</pre>
+	
 
 	e. create app.component.ts under WelcomeModule and copy below code:
-		<pre>
-			<code>
+	
 				import { Component } from '@angular/core';
 
 				@Component({
@@ -247,7 +242,5 @@ Steps to create from the scratch
 						title = "Hi there, I am from TS Class";
 					}
 			
-			</code>
-		</pre>
-
+	
 <b> At this point we are all set, just run the app </b>
