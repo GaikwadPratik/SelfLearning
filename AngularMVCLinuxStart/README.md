@@ -47,8 +47,9 @@ Steps to create from the scratch
 			"del": "^2.2.2"
 		  }
 		}
-		</pre>
+		
 	</code>
+	</pre>
 
 3. Add a new <b>tsconfig.json</b> file inside the Project so that only <b> required <i>*.ts</i> files </b> gets compiled to JS.
 	Copy below configuration in tsconfig.json
@@ -112,8 +113,9 @@ Steps to create from the scratch
 		del(['typings']);
 	});
 
-	</pre>
+	
 	</code>
+	</pre>
 
 	<i> This should be updated as app grows and more AngularJS2 modules are needed to be inclued in Project. </i> 
 	Above code just copies files for a basic app.
@@ -138,8 +140,9 @@ Steps to create from the scratch
     <script>
         System.import('app').catch(function (err) { console.error(err); });
     </script>
-	</pre>
+	
 	</code>
+	</pre>
 
 10. Goto Views -> Home -> Index.cshtml <i>(or whichever view needs to load AngularJS2 app)</i> and add below lines:
 
@@ -148,8 +151,9 @@ Steps to create from the scratch
 	<div>
 		<first-app></first-app>
 	</div>
-	</pre>
+	
 	</code> 
+	</pre>
 
 11. Now let's hook up angular 2 code. 
 	a. Create below folder structure under Scripts folder:
@@ -208,9 +212,9 @@ Steps to create from the scratch
 				}
 			});
 		})(this);
-
-		</pre>
+				
 	</code>
+	</pre>
 	
 	c. Create main.ts under WelcomeModule and copy below code:
 		<pre>
@@ -218,8 +222,9 @@ Steps to create from the scratch
 		import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 		import { AppModule } from './app.module';
 		platformBrowserDynamic().bootstrapModule(AppModule);
-		</pre>
+		
 	</code>
+	</pre>
 
 	d. create app.module.ts under WelcomeModule and copy below code:
 	<pre>
@@ -235,8 +240,9 @@ Steps to create from the scratch
 		})
 
 		export class AppModule { }
-		</pre>
+		
 	</code>
+	</pre>
 
 	e. create app.component.ts under WelcomeModule and copy below code:
 		<pre>
@@ -252,7 +258,8 @@ Steps to create from the scratch
 			export class AppComponent {
 				title = "Hi there, I am from TS Class";
 			}
-			</pre>
+			
 	</code>
+	</pre>
 
 <b> At this point we are all set, just run the app </b>
