@@ -2057,7 +2057,7 @@
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\App\WelcomeModule\app.component.ts" />
     <TypeScriptCompile Include="Scripts\App\WelcomeModule\app.module.ts" />
-    <TypeScriptCompile Include="Scripts\App\WelcomeModule\main.ts" />
+    <TypeScriptCompile Include="Scripts\App\main.ts" />
     <TypeScriptCompile Include="Scripts\Dependencies\%40angular\common\index.d.ts" />
     <TypeScriptCompile Include="Scripts\Dependencies\%40angular\common\src\common_module.d.ts" />
     <TypeScriptCompile Include="Scripts\Dependencies\%40angular\common\src\directives\index.d.ts" />
