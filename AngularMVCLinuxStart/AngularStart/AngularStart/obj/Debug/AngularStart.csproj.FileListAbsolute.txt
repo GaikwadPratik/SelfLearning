@@ -1,0 +1,163 @@
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\ApplicationInsights.config
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\roslyn\csc.exe
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\roslyn\System.Collections.Immutable.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\roslyn\System.Reflection.Metadata.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\roslyn\vbc.exe
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\roslyn\VBCSCompiler.exe
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\roslyn\VBCSCompiler.exe.config
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\AngularStart.dll.config
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\AngularStart.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\AngularStart.pdb
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Antlr3.Runtime.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\EntityFramework.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\EntityFramework.SqlServer.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.AI.DependencyCollector.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.AI.Web.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.AI.WindowsServer.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.ApplicationInsights.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.Owin.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.Owin.Security.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.Owin.Security.Google.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.Web.Infrastructure.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Newtonsoft.Json.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Owin.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\System.Web.Helpers.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\System.Web.Mvc.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\System.Web.Optimization.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\System.Web.Razor.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\System.Web.WebPages.Deployment.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\System.Web.WebPages.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\System.Web.WebPages.Razor.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\WebGrease.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.AI.DependencyCollector.xml
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.AI.Web.xml
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.AI.WindowsServer.xml
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.ApplicationInsights.xml
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\System.Web.Helpers.xml
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\System.Web.Mvc.xml
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\System.Web.Optimization.xml
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\System.Web.Razor.xml
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\System.Web.WebPages.xml
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\System.Web.WebPages.Deployment.xml
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\System.Web.WebPages.Razor.xml
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Antlr3.Runtime.pdb
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Newtonsoft.Json.xml
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\EntityFramework.xml
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\EntityFramework.SqlServer.xml
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.Owin.xml
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.Owin.Security.xml
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.Owin.Security.Google.xml
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\obj\Debug\AngularStart.dll
+C:\Pratik\Projects\Visual Studio 2013\Projects\AngularMVCLinuxStart\AngularStart\AngularStart\obj\Debug\AngularStart.pdb
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\ApplicationInsights.config
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\roslyn\csc.exe
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\roslyn\System.Collections.Immutable.dll
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\roslyn\System.Reflection.Metadata.dll
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\roslyn\vbc.exe
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\roslyn\VBCSCompiler.exe
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\roslyn\VBCSCompiler.exe.config
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\AngularStart.dll.config
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\AngularStart.dll
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\AngularStart.pdb
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Antlr3.Runtime.dll
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\EntityFramework.dll
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\EntityFramework.SqlServer.dll
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.AI.DependencyCollector.dll
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.AI.Web.dll
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.AI.WindowsServer.dll
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.ApplicationInsights.dll
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.Owin.dll
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.Owin.Security.dll
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.Owin.Security.Google.dll
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.Web.Infrastructure.dll
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Newtonsoft.Json.dll
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Owin.dll
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\System.Web.Helpers.dll
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\System.Web.Mvc.dll
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\System.Web.Optimization.dll
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\System.Web.Razor.dll
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\System.Web.WebPages.Deployment.dll
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\System.Web.WebPages.dll
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\System.Web.WebPages.Razor.dll
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\WebGrease.dll
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.AI.DependencyCollector.xml
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.AI.Web.xml
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.AI.WindowsServer.xml
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.ApplicationInsights.xml
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\System.Web.Helpers.xml
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\System.Web.Mvc.xml
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\System.Web.Optimization.xml
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\System.Web.Razor.xml
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\System.Web.WebPages.xml
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\System.Web.WebPages.Deployment.xml
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\System.Web.WebPages.Razor.xml
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Antlr3.Runtime.pdb
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Newtonsoft.Json.xml
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\EntityFramework.xml
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\EntityFramework.SqlServer.xml
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.Owin.xml
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.Owin.Security.xml
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.Owin.Security.Google.xml
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\obj\Debug\AngularStart.dll
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\obj\Debug\AngularStart.pdb
+C:\Pratik\Projects\SelfLearning\AngularMVCLinuxStart\AngularStart\AngularStart\obj\Debug\AngularStart.csprojResolveAssemblyReference.cache

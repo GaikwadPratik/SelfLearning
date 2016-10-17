@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "suppressImplicitAnyIndexErrors": true
+  },
+  "compileOnSave": true,
+  "files": [//this is needed because TS 2.0.* will create compilation error for empty declarations
+    "Scripts/App/WelcomeModule/app.component.ts",
+    "Scripts/App/WelcomeModule/app.module.ts",
+    "Scripts/App/WelcomeModule/main.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "wwwroot"
+  ]
+}
