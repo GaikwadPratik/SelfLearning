@@ -133,14 +133,14 @@ Steps to create from the scratch
 	<pre>
 		<code>
 		
-		<script src="~/Scripts/Dependencies/shim.min.js"></script>
-		<script src="~/Scripts/Dependencies/zone.js"></script>
-		<script src="~/Scripts/Dependencies/Reflect.js"></script>
-		<script src="~/Scripts/Dependencies/system.src.js"></script>
-		<script src="~/Scripts/SystemConfig/systemjs.config.js"></script>
-		<script>
-			System.import('app').catch(function (err) { console.error(err); });
-		</script>
+		//<script src="~/Scripts/Dependencies/shim.min.js"></script>
+		//<script src="~/Scripts/Dependencies/zone.js"></script>
+		//<script src="~/Scripts/Dependencies/Reflect.js"></script>
+		//<script src="~/Scripts/Dependencies/system.src.js"></script>
+		//<script src="~/Scripts/SystemConfig/systemjs.config.js"></script>
+		//<script>
+			//System.import('app').catch(function (err) { console.error(err); });
+		//</script>
 	
 		</code>
 	</pre>
