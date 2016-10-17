@@ -48,6 +48,7 @@ Steps to create from the scratch
 
 3. Add a new <b>tsconfig.json</b> file inside the Project so that only <b> required <i>*.ts</i> files </b> gets compiled to JS.
 	Copy below configuration in tsconfig.json
+
 	
 	{
 	  "compilerOptions": {
