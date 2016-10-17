@@ -77,6 +77,7 @@ Steps to create from the scratch
 
 4. Add a gulpfile.js so that we can move only required files inside Scripts folder. Copy below code in it:
 	
+	
 	var gulp = require('gulp');
 	var del = require('del');
 	var config = {
