@@ -1,4 +1,4 @@
-# AngularJS2 project with ASP.NET MVC 5 in Visual Studio 2015 Update 3
+﻿# AngularJS2 project with ASP.NET MVC 5 in Visual Studio 2015 Update 3
 <h3> These steps can be used with new applicaiton or existing application </h3>
 
 Steps to create from the scratch
@@ -49,7 +49,7 @@ Steps to create from the scratch
 3. Add a new <b>tsconfig.json</b> file inside the Project so that only <b> required <i>*.ts</i> files </b> gets compiled to JS.
 	Copy below configuration in tsconfig.json
 
-	
+	<code>
 	{
 	  "compilerOptions": {
 		"noImplicitAny": false,
@@ -74,7 +74,7 @@ Steps to create from the scratch
 		"wwwroot"
 	  ]
 	}
-
+	</code>
 
 4. Add a gulpfile.js so that we can move only required files inside Scripts folder. Copy below code in it:
 	
