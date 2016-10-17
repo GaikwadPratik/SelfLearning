@@ -14,6 +14,8 @@ Steps to create from the scratch
 2. Add a new <b>package.json</b> file inside the Project so that we can install <i>NodeJS</i> packages.
 	To install AngularJS2 packages copy below lines in package.json
 		
+	<pre>
+	<code>
 		{
 		  "version": "1.0.0",
 		  "name": "augluarstart", <b><u>This should be name of your project all in lower case</u></b>
@@ -45,11 +47,14 @@ Steps to create from the scratch
 			"del": "^2.2.2"
 		  }
 		}
+		</pre>
+	</code>
 
 3. Add a new <b>tsconfig.json</b> file inside the Project so that only <b> required <i>*.ts</i> files </b> gets compiled to JS.
 	Copy below configuration in tsconfig.json
 	<pre>
 	<code>
+
 	{
 	  "compilerOptions": {
 		"noImplicitAny": false,
@@ -74,12 +79,14 @@ Steps to create from the scratch
 		"wwwroot"
 	  ]
 	}
+
 	</code>
 	</pre>
 
 4. Add a gulpfile.js so that we can move only required files inside Scripts folder. Copy below code in it:
 	
-	
+	<pre>
+	<code>
 	var gulp = require('gulp');
 	var del = require('del');
 	var config = {
@@ -105,6 +112,9 @@ Steps to create from the scratch
 		del(['typings']);
 	});
 
+	</pre>
+	</code>
+
 	<i> This should be updated as app grows and more AngularJS2 modules are needed to be inclued in Project. </i> 
 	Above code just copies files for a basic app.
 
@@ -118,7 +128,9 @@ Steps to create from the scratch
 
 9. Goto _Layout.cshtml file and add below code to run AngularJS2 modules when app runs.
 
-<script src="~/Scripts/Dependencies/shim.min.js"></script>
+<pre>
+	<code>
+	<script src="~/Scripts/Dependencies/shim.min.js"></script>
     <script src="~/Scripts/Dependencies/zone.js"></script>
     <script src="~/Scripts/Dependencies/Reflect.js"></script>
     <script src="~/Scripts/Dependencies/system.src.js"></script>
@@ -126,11 +138,18 @@ Steps to create from the scratch
     <script>
         System.import('app').catch(function (err) { console.error(err); });
     </script>
+	</pre>
+	</code>
 
 10. Goto Views -> Home -> Index.cshtml <i>(or whichever view needs to load AngularJS2 app)</i> and add below lines:
+
+<pre>
+	<code>
 	<div>
 		<first-app></first-app>
-	</div> 
+	</div>
+	</pre>
+	</code> 
 
 11. Now let's hook up angular 2 code. 
 	a. Create below folder structure under Scripts folder:
@@ -140,6 +159,9 @@ Steps to create from the scratch
 				SystemConfig
 	
 	b. create systemjs.config.js under SystemConfig folder and copy below code.
+		
+		<pre>
+	<code>
 		 /**
 		 * System configuration for Angular 2 samples
 		 * Adjust as necessary for your application needs.
@@ -186,13 +208,22 @@ Steps to create from the scratch
 				}
 			});
 		})(this);
+
+		</pre>
+	</code>
 	
 	c. Create main.ts under WelcomeModule and copy below code:
+		<pre>
+	<code>
 		import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 		import { AppModule } from './app.module';
 		platformBrowserDynamic().bootstrapModule(AppModule);
-		
+		</pre>
+	</code>
+
 	d. create app.module.ts under WelcomeModule and copy below code:
+	<pre>
+	<code>
 		import { NgModule } from '@angular/core';
 		import { BrowserModule } from '@angular/platform-browser';
 		import { AppComponent } from './app.component';
@@ -204,8 +235,12 @@ Steps to create from the scratch
 		})
 
 		export class AppModule { }
+		</pre>
+	</code>
 
 	e. create app.component.ts under WelcomeModule and copy below code:
+		<pre>
+	<code>
 		import { Component } from '@angular/core';
 
 		@Component({
@@ -217,5 +252,7 @@ Steps to create from the scratch
 			export class AppComponent {
 				title = "Hi there, I am from TS Class";
 			}
+			</pre>
+	</code>
 
 <b> At this point we are all set, just run the app </b>
