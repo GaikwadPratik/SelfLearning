@@ -130,21 +130,17 @@ Steps to create from the scratch
 
 9. Goto _Layout.cshtml file and add below code to run AngularJS2 modules when app runs.
 
-	<pre>
-		<code>
-		
-		//<script src="~/Scripts/Dependencies/shim.min.js"></script>
-		//<script src="~/Scripts/Dependencies/zone.js"></script>
-		//<script src="~/Scripts/Dependencies/Reflect.js"></script>
-		//<script src="~/Scripts/Dependencies/system.src.js"></script>
-		//<script src="~/Scripts/SystemConfig/systemjs.config.js"></script>
-		//<script>
-			//System.import('app').catch(function (err) { console.error(err); });
-		//</script>
 	
-		</code>
-	</pre>
-
+		<script src="~/Scripts/Dependencies/shim.min.js"></script>
+		<script src="~/Scripts/Dependencies/zone.js"></script>
+		<script src="~/Scripts/Dependencies/Reflect.js"></script>
+		<script src="~/Scripts/Dependencies/system.src.js"></script>
+		<script src="~/Scripts/SystemConfig/systemjs.config.js"></script>
+		<script>
+			System.import('app').catch(function (err) { console.error(err); });
+		</script>
+	
+	
 10. Goto Views -> Home -> Index.cshtml <i>(or whichever view needs to load AngularJS2 app)</i> and add below lines:
 
 	<pre>
