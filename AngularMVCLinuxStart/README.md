@@ -70,7 +70,7 @@ Steps to create from the scratch
 			"suppressImplicitAnyIndexErrors": true
 		  },
 		  "compileOnSave": true,
-		  "files": [[//this is needed because TS 2.0.* will create compilation error for empty declarations
+		  "files": [//this is needed because TS 2.0.* will create compilation error for empty declarations
 			"Scripts/App/WelcomeModule/app.component.ts",
 			"Scripts/App/WelcomeModule/app.module.ts",
 			"Scripts/App/WelcomeModule/main.ts"
