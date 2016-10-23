@@ -2042,6 +2042,7 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="tsconfig.json" />
+    <Content Include="Views\Shared\_BankingWelcome.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -2055,6 +2056,8 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="Scripts\App\BankingModule\bm.module.ts" />
+    <TypeScriptCompile Include="Scripts\App\BankingModule\WelcomeComponent\bm.welcomecomponent.ts" />
     <TypeScriptCompile Include="Scripts\App\WelcomeModule\app.component.ts" />
     <TypeScriptCompile Include="Scripts\App\WelcomeModule\app.module.ts" />
     <TypeScriptCompile Include="Scripts\App\main.ts" />

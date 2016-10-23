@@ -15,7 +15,9 @@
   "files": [//this is needed because TS 2.0.* will create compilation error for empty declarations
     "Scripts/App/WelcomeModule/app.component.ts",
     "Scripts/App/WelcomeModule/app.module.ts",
-    "Scripts/App/main.ts"
+    "Scripts/App/main.ts",
+    "Scripts/App/BankingModule/WelcomeComponent/bm.welcomecomponent.ts",
+    "Scripts/App/BankingModule/bm.module.ts"
   ],
   "exclude": [
     "node_modules",

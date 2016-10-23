@@ -1,0 +1,9 @@
+{
+  "name": "linked-list-demo",
+  "version": "0.0.0",
+  "description": "LinkedListDemo",
+  "main": "app.js",
+  "author": {
+    "name": "Pratik"
+  }
+}
