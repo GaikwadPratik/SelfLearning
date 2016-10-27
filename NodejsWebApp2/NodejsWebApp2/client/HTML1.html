@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" data-ng-app="imageLoaderApp">
+<head>
+    <meta charset="utf-8" />
+    <style>
+        .container {
+            width: 80%;
+            margin: auto;
+            clear: both;
+            padding: 20px;
+        }
+
+        .col {
+            width: 50%;
+            float: left;
+            overflow: hidden;
+        }
+
+        .fullScreen {
+            background-color: rgba(0, 0, 0, 0.5);
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: 0;
+            box-sizing: border-box;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    </style>
+    <title>Photo Collection</title>
+</head>
+<body>
+    <div data-ng-controller="loadController">
+        <div class="container " ng-repeat="snap in images track by $index">
+            <div class="col">
+                <div>
+                    <img width="318" title="{{snap.name}}" alt="{{snap.name}}" ng-src="images/{{snap.src}}">
+                </div>
+            </div>
+            <div class="col">
+                <label>{{snap.name}}</label>
+                <br />
+                <a ng-href="images/{{snap.src}}">/images/{{snap.src}}</a>
+
+            </div>
+        </div>
+    </div>
+    <!--<div class="fullScreen">
+
+    </div>-->
+    <script src="http://localhost:1337/socket.io/socket.io.js"></script>
+    <script src="scripts/angular/angular.js"></script>
+    <script src="scripts/app/app.js"></script>
+</body>
+</html>
