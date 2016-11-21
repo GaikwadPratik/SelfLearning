@@ -1,0 +1,9 @@
+{
+  "name": "datastructures-and-algorithms",
+  "version": "0.0.0",
+  "description": "DatastructuresAndAlgorithms",
+  "main": "app.js",
+  "author": {
+    "name": "pratik"
+  }
+}
