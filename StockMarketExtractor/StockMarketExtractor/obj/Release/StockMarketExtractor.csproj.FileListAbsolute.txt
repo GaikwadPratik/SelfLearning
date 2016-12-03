@@ -7,3 +7,4 @@ C:\Pratik\Projects\Visual Studio 2013\Projects\StockMarketExtractor\StockMarketE
 C:\Pratik\Projects\Visual Studio 2013\Projects\StockMarketExtractor\StockMarketExtractor\obj\Release\StockMarketExtractor.exe
 C:\Pratik\Projects\Visual Studio 2013\Projects\StockMarketExtractor\StockMarketExtractor\obj\Release\StockMarketExtractor.pdb
 C:\Pratik\Projects\Visual Studio 2013\Projects\StockMarketExtractor\StockMarketExtractor\obj\Release\StockMarketExtractor.csprojResolveAssemblyReference.cache
+D:\Projects\SelfLearning\StockMarketExtractor\StockMarketExtractor\bin\Release\StockMarketExtractor.exe.config
