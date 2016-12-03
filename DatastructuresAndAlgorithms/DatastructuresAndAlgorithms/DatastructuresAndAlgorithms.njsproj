@@ -49,6 +49,8 @@
     <Content Include="package.json" />
     <Content Include="README.md" />
     <TypeScriptCompile Include="Datastructure\Common\Basecollection.ts" />
+    <TypeScriptCompile Include="Datastructure\Dictionary\Dictionary.ts" />
+    <TypeScriptCompile Include="Datastructure\Graph\Graph.ts" />
     <TypeScriptCompile Include="Datastructure\LinkedList\CircularLinkedList.ts" />
     <TypeScriptCompile Include="Datastructure\LinkedList\DoublyLinkedList.ts" />
     <TypeScriptCompile Include="Datastructure\LinkedList\LinkedList.ts" />
@@ -56,14 +58,22 @@
     <TypeScriptCompile Include="Datastructure\Queue\PriorityQueue.ts" />
     <TypeScriptCompile Include="Datastructure\Queue\Queue.ts" />
     <TypeScriptCompile Include="Datastructure\Stack\Stack.ts" />
+    <TypeScriptCompile Include="Datastructure\Trees\BinarySearchTree.ts" />
+    <TypeScriptCompile Include="Datastructure\Trees\BinarySearchTreeNode.ts" />
+    <TypeScriptCompile Include="Datastructure\Trees\Trie.ts" />
+    <TypeScriptCompile Include="Datastructure\Trees\TrieNode.ts" />
     <TypeScriptCompile Include="Scripts\typings\node\node.d.ts" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Datastructure\" />
     <Folder Include="Datastructure\Common\" />
     <Folder Include="Datastructure\LinkedList\" />
+    <Folder Include="Datastructure\Dictionary\" />
+    <Folder Include="Datastructure\Graph\" />
+    <Folder Include="Datastructure\Trees\" />
     <Folder Include="Datastructure\Queue\" />
     <Folder Include="Datastructure\Stack\" />
+    <Folder Include="Algorithms\" />
     <Folder Include="Scripts\" />
     <Folder Include="Scripts\typings\" />
     <Folder Include="Scripts\typings\node\" />
