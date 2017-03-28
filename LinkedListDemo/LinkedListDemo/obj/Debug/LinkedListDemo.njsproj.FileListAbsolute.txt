@@ -1,2 +1,0 @@
-C:\Users\Pratik\Documents\Visual Studio 2015\Projects\LinkedListDemo\LinkedListDemo\obj\Debug\LinkedListDemo.njsprojResolveAssemblyReference.cache
-C:\Users\Pratik\Documents\Visual Studio 2015\Projects\LinkedListDemo\LinkedListDemo\bin\Microsoft.NodejsTools.WebRole.dll
